@@ -1,0 +1,70 @@
+body {
+  background-color: lightgray;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+/* Selecting elements by class */
+.container {
+/*  width: 1024px; */
+/*   margin: 0 auto; */
+  margin-top: 30px;
+}
+
+/* Selecting elements by ID */
+#main-vis,
+#visualizations,
+#summ-image {
+  float: left;
+  background-color: white;
+}
+
+#figure {
+  position: relative;
+}
+
+#summary {
+  position: absolute;
+  left: 30px;
+}
+
+#main-vis {
+  width: 60%;
+}
+
+#visualizations {
+  width: 35%;
+  margin-left:20px;
+}
+
+#summ-image {
+  width: 300px;
+  height: 300px;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+#vis-image {
+  width: 160px;
+  height: 160px;
+}
+
+#vispag-image {
+  width: 500px;
+  height: 500px;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+@media (max-width: 800px) {
+  #main-vis {
+    width: 100%;
+  }
+
+  #visualizations {
+    width: 100%;
+    margin-top: 30px;
+    margin-left:0px;
+  }
