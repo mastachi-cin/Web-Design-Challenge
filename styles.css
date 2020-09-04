@@ -27,6 +27,14 @@ p.vispag_exp {
   margin-top: 30px;
 }
 
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover,
+.navbar-default .navbar-brand:focus{
+    color: white;
+    background-color: lightseagreen;
+    padding: 6px 10px;
+}
+
 /* Selecting elements by ID */
 #main-vis,
 #visualizations,
