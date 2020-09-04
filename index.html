@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Visualization Dashboard (Latitude)</title>
+  <title>Latitude</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
@@ -12,73 +12,43 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Latitude</a>
+        <a class="navbar-brand" href="index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
     
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-        <!--    <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li> -->
-        <!--    <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li> -->
+        
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-              <!--    <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                  </li> -->
+
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Plots
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="#">Plot 1</a>
+                      <a class="dropdown-item" href="vispag_1.html">Max Temperature</a>
                       <a class="dropdown-item" href="#">Plot 2</a>
                       <div class="dropdown-divider"></div>
                       <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Comparison</a>
+                    <a class="nav-link" href="comparison.html">Comparison</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Data</a>
                   </li>
                 </ul>
-
+            </div>
           </form>
         </div>
       </nav>
 
-  <!--     <div class="fixed-top"> -->
-  <!--      <div class="collapse" id="navbarToggleExternalContent">
-          <div class="bg-dark p-4">
-            <h5 class="text-white h4">Collapsed content</h5>
-            <span class="text-muted">Toggleable via the navbar brand.</span>
-          </div>
-        </div>
-        <nav class="navbar navbar-dark bg-dark">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </nav> -->
-  <!--     </div> -->
+
 
     <main class="container">
         <section id="main-vis">
@@ -93,10 +63,12 @@
     
         <aside id="visualizations">
           <h2>Visualizations</h2>
-          <img id="vis-image" src="Resources/assets/images/Fig1.png" alt="Your Names">
+          <a href="vispag_1.html">
+            <img id="vis-image" src="Resources/assets/images/Fig1.png" alt="Max Temperature">
+          </a>
           <img id="vis-image" src="Resources/assets/images/Fig2.png" alt="Your Names">
           <img id="vis-image" src="Resources/assets/images/Fig3.png" alt="Your Names">
-          <img id="vis-image" src="Resources/assets/images/Fig4.png" alt="Your Names">
+          <img id="vis-image-4" src="Resources/assets/images/Fig4.png" alt="Your Names">
         </aside>
     </main>
 

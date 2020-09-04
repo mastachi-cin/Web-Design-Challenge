@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Max Temperature</title>
+  <title>Comparison</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
@@ -46,28 +46,50 @@
         </div>
       </nav>
 
-    <main class="container">
-        <section id="main-vis">
-          <section id="figure">
-            <h2 id="summary">Max Temperature</h2>
-          <!--  <hr style="border: 2px solid red;"/> -->
-            <img id="vispag-image" src="Resources/assets/images/Fig1.png" alt="Your Names">
-          </section>
-          <p class="vispag_exp">As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
-        </section>
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-12" id = "comp-col">
+            <h2>Comparison: Latitud vs. X</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12" id = "comp-col">
+            <h4>Click any plot to get an in-depth analysis</h4>
+          </div>
+        </div>
     
-        <aside id="visualizations">
-          <h2>Visualizations</h2>
-          <a href="vispag_1.html">
-            <img id="vis-image" src="Resources/assets/images/Fig1.png" alt="Max Temperature">
-          </a>
-          <img id="vis-image" src="Resources/assets/images/Fig2.png" alt="Your Names">
-          <img id="vis-image" src="Resources/assets/images/Fig3.png" alt="Your Names">
-          <img id="vis-image-4" src="Resources/assets/images/Fig4.png" alt="Your Names">
-        </aside>
-    </main>
-
-
+        <!--Normally these columns go full wide on small screen sizes-->
+        <div class="row">
+          <div class="col-sm-6" id = "comp-col">
+            <h3>vs. Max Temperature</h3>
+            <a href="vispag_1.html">
+              <img id="comp-image" src="Resources/assets/images/Fig1.png" alt="Max Temperature">
+            </a>
+          </div>
+          <div class="col-sm-6" id = "comp-col">
+            <h3>vs. Humidity</h3>
+            <a href="vispag_2.html">
+              <img id="comp-image" src="Resources/assets/images/Fig2.png" alt="Humidity">
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6" id = "comp-col">
+            <h3>vs. Cloudiness</h3>
+            <a href="vispag_3.html">
+              <img id="comp-image" src="Resources/assets/images/Fig3.png" alt="Cloudiness">
+            </a>
+          </div>
+          <div class="col-sm-6" id = "comp-col">
+            <h3>vs. Wind Speed</h3>
+            <a href="vispag_4.html">
+              <img id="comp-image" src="Resources/assets/images/Fig4.png" alt="Wind Speed">
+            </a>
+          </div>
+        </div>
+      </div>
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

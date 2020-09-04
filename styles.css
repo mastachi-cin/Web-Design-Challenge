@@ -6,6 +6,20 @@ h2 {
   font-size: 20px;
 }
 
+h3 {
+  font-size: 13px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 10px;
+}
+
+p.vispag_exp {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
 /* Selecting elements by class */
 .container {
 /*  width: 1024px; */
@@ -46,16 +60,34 @@ h2 {
   margin-right: 20px;
 }
 
-#vis-image {
+#vis-image,
+#vis-image-4 {
   width: 160px;
   height: 160px;
 }
 
+#main-vispag {
+  width: 60%;
+/*  margin-right: 10px;
+  margin-left: 10px; */
+}
+
+#comp-col {
+  background-color: white;
+}
+
 #vispag-image {
-  width: 500px;
-  height: 500px;
+  width: 650px;
+  height: 550px;
   margin-top: 30px;
-  margin-right: 20px;
+  margin-left: 15px;
+}
+
+#comp-image {
+  width: 85%;
+  height: 85%;
+/*  margin-top: 30px;
+  margin-left: 15px; */
 }
 
 @media (max-width: 800px) {
@@ -68,3 +100,21 @@ h2 {
     margin-top: 30px;
     margin-left:0px;
   }
+}
+
+@media (max-width: 1200px) {
+  #vispag-image {
+    width: 95%;
+    height: 85%;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  #vis-image-4 {
+  margin-left: 165px;
+  }
+}
+
+
