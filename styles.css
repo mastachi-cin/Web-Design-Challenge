@@ -10,7 +10,6 @@ h2 {
 
 h3 {
   font-size: 13px;
-  text-align: center;
   color: lightseagreen;
 }
 
@@ -24,6 +23,11 @@ p {
 
 .container {
   margin-top: 30px;
+}
+
+#cont-data {
+  background-color: white;
+  padding: 30px;
 }
 
 .navbar-light .navbar-brand,
@@ -64,6 +68,13 @@ p {
   margin-top: 20px;
   margin-left: 15px;
   margin-bottom: 20px;
+  text-align: left;
+}
+
+#cont4-txt {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
 }
 
 #visualizations {
@@ -79,8 +90,7 @@ p {
   margin-right: 15px;
 }
 
-#vis-image,
-#vis-image-4 {
+#vis-image {
   width: 130px;
   height: 130px;
 }
@@ -98,8 +108,6 @@ aside {
 }
 
 #vispag-image {
-/*  width: 650px;
-  height: 550px; */
   width: 95%;
   height: 85%; 
   margin-top: 30px;
@@ -109,9 +117,10 @@ aside {
 #comp-image {
   width: 85%;
   height: 85%;
-/*  margin-top: 30px;
-  margin-left: 15px; */
-  
+}
+
+#table-sty {
+  font-size: 14px;
 }
 
 @media (max-width: 800px) {
